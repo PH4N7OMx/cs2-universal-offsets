@@ -117,10 +117,10 @@ pub static CS2_PATTERNS: &[Pattern] = &[
     Pattern {
         name: "CalcViewmodel",
         module: "client.dll",
-        needle: "40 55 53 56 41 56 41 57 48 8B EC",
+        needle: "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 20 49 8B E8 48 8B F2 48 8B F9 E8",
         resolve: NONE,
         extra_off: 0,
-        prototype: "void __fastcall sub_18084F430(__int64 a1, float *a2, float *a3)",
+        prototype: "void __fastcall sub_1808CAFA0(__int64 a1, float *a2, float *a3)",
     },
     Pattern {
         name: "CalcViewmodelView",
@@ -587,10 +587,10 @@ pub static CS2_PATTERNS: &[Pattern] = &[
         // the clamps. Verified IDA build 14160 (RVA 0x84EE40).
         name: "GetViewModelOffsets",
         module: "client.dll",
-        needle: "40 55 53 56 41 56 41 57 48 8B EC 48 83 EC 20 4D 8B F8 4C 8B F2 48 8B F1 E8",
+        needle: "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 20 49 8B E8 48 8B F2 48 8B F9 E8",
         resolve: NONE,
         extra_off: 0,
-        prototype: "void __fastcall sub_1808CEC10(__int64 a1, float *a2, float *a3)",
+        prototype: "void __fastcall sub_1808CAFA0(__int64 a1, float *a2, float *a3)",
     },
     Pattern { name: "GetWeaponInAccuracyRecoveryTime",      module: "client.dll", needle: "48 89 5C 24 08 57 48 83 EC 30 48 8B D9 E8 ? ? ? ? 48 8B F8 48 85 C0 75", resolve: NONE, extra_off: 0, prototype: "__m128 __fastcall sub_180808CD0(__int64 a1)" },
     Pattern {
@@ -1585,7 +1585,7 @@ pub static CS2_PATTERNS: &[Pattern] = &[
     Pattern { name: "CTriggerGravity_GravityTouch", module: "server.dll", needle: "48 89 5C 24 ? 57 48 83 EC ? 48 8B 02 48 8B F9 48 8B CA 48 8B DA FF 90 ? ? ? ? 84 C0 74 ? F3 0F 10 8F", resolve: NONE, extra_off: 0, prototype: "__int64 __fastcall sub_180FC77B0(__int64 a1, __int64 a2)" },
     Pattern { name: "DispatchParticleEffect", module: "server.dll", needle: "48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 4C 89 74 24 20 55 48 8D 6C 24 D1", resolve: NONE, extra_off: 0, prototype: "__int64 __fastcall sub_180C49860(__int64 a1, int a2, __int64 a3, char a4, int a5, char a6, int a7, __int64 a8, char a9)" },
     Pattern { name: "FindUseEntity", module: "server.dll", needle: "4C 89 44 24 ? F3 0F 11 4C 24 ? 55 53 56", resolve: NONE, extra_off: 0, prototype: "_QWORD *__fastcall sub_180ABDC50(_QWORD *a1, float a2, float *a3)" },
-    Pattern { name: "GameSystem_Think_CheckSteamBan", module: "server.dll", needle: "41 54 48 81 EC ? ? ? ? BA ? ? ? ? 48 8D 0D ? ? ? ? E8 ? ? ? ? 48 85 C0", resolve: NONE, extra_off: 0, prototype: "" },
+    Pattern { name: "GameSystem_Think_CheckSteamBan", module: "server.dll", needle: "41 54 48 81 EC ? ? ? ? 48 8B 05 ? ? ? ? 44 8B 60 58 45 85 E4 7F", resolve: NONE, extra_off: 0, prototype: "void __fastcall sub_1809388C0()" },
     Pattern { name: "GetCSWeaponDataFromKey", module: "server.dll", needle: "48 89 5C 24 ? 57 48 83 EC ? 33 FF 4C 8B CA 8B D9", resolve: NONE, extra_off: 0, prototype: "__int64 __fastcall sub_180542AE0(int a1, _BYTE *a2, __int64 a3)" },
     Pattern { name: "GetSpawnGroups", module: "server.dll", needle: "40 56 48 83 EC ? 48 89 5C 24 ? 48 8D B1", resolve: NONE, extra_off: 0, prototype: "void __fastcall sub_18058A950(__int64 a1, __int64 a2)" },
     Pattern { name: "GiveNamedItem", module: "server.dll", needle: "48 89 5C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 44 89 44 24", resolve: NONE, extra_off: 0, prototype: "__int64 __fastcall sub_180AB2D20(__int64 a1, const char *a2, int a3, __int64 a4, char a5, __int64 *a6)" },
