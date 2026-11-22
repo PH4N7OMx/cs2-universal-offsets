@@ -48,19 +48,19 @@
         "hpp_name": "CSGOInput",
         "kind": "global",
         "name": "dwCSGOInput",
-        "rva": "0x256CFE0"
+        "rva": "0x256D560"
       },
       {
         "hpp_name": "EntityList",
         "kind": "global",
         "name": "dwEntityList",
-        "rva": "0x270C680"
+        "rva": "0x270D5B0"
       },
       {
         "hpp_name": "GameEntitySystem",
         "kind": "global",
         "name": "dwGameEntitySystem",
-        "rva": "0x270C680"
+        "rva": "0x270D5B0"
       },
       {
         "hpp_name": "GameEntitySystem_highestEntityIndex",
@@ -72,7 +72,7 @@
         "hpp_name": "GameRules",
         "kind": "global",
         "name": "dwGameRules",
-        "rva": "0x2556E78"
+        "rva": "0x25573F8"
       },
       {
         "hpp_name": "GlobalVars",
@@ -84,37 +84,37 @@
         "hpp_name": "GlowManager",
         "kind": "global",
         "name": "dwGlowManager",
-        "rva": "0x2553B90"
+        "rva": "0x2554110"
       },
       {
         "hpp_name": "LocalPlayerController",
         "kind": "global",
         "name": "dwLocalPlayerController",
-        "rva": "0x252ED78"
+        "rva": "0x252F300"
       },
       {
         "hpp_name": "LocalPlayerPawn",
         "kind": "global",
         "name": "dwLocalPlayerPawn",
-        "rva": "0x2557538"
+        "rva": "0x2557AB8"
       },
       {
         "hpp_name": "PlantedC4",
         "kind": "global",
         "name": "dwPlantedC4",
-        "rva": "0x24BD9E8"
+        "rva": "0x24BDF68"
       },
       {
         "hpp_name": "Prediction",
         "kind": "global",
         "name": "dwPrediction",
-        "rva": "0x2557440"
+        "rva": "0x25579C0"
       },
       {
         "hpp_name": "Sensitivity",
         "kind": "global",
         "name": "dwSensitivity",
-        "rva": "0x25546C8"
+        "rva": "0x2554C48"
       },
       {
         "hpp_name": "Sensitivity_sensitivity",
@@ -126,25 +126,25 @@
         "hpp_name": "ViewAngles",
         "kind": "global",
         "name": "dwViewAngles",
-        "rva": "0x256D668"
+        "rva": "0x256DBE8"
       },
       {
         "hpp_name": "ViewMatrix",
         "kind": "global",
         "name": "dwViewMatrix",
-        "rva": "0x255CE50"
+        "rva": "0x255D3D0"
       },
       {
         "hpp_name": "ViewRender",
         "kind": "global",
         "name": "dwViewRender",
-        "rva": "0x255D818"
+        "rva": "0x255DD98"
       },
       {
         "hpp_name": "WeaponC4",
         "kind": "global",
         "name": "dwWeaponC4",
-        "rva": "0x24BB680"
+        "rva": "0x24BBC00"
       },
       {
         "deref": false,
@@ -170,13 +170,13 @@
         "hpp_name": "GetBombsiteACenter",
         "kind": "signature",
         "name": "GetBombsiteACenter",
-        "rva": "0x8C8F30"
+        "rva": "0x8C9060"
       },
       {
         "hpp_name": "GetBombsiteBCenter",
         "kind": "signature",
         "name": "GetBombsiteBCenter",
-        "rva": "0x8C8F90"
+        "rva": "0x8C90C0"
       },
       {
         "deref": false,
@@ -189,73 +189,73 @@
         "hpp_name": "ManageGlowSceneObject",
         "kind": "signature",
         "name": "ManageGlowSceneObject",
-        "rva": "0xB6DF80"
+        "rva": "0xB6DFF0"
       },
       {
         "hpp_name": "pClientMode",
         "kind": "signature",
         "name": "pClientMode",
-        "rva": "0x256AD40"
+        "rva": "0x256B2C0"
       },
       {
         "hpp_name": "pCSGOInputInstance",
         "kind": "signature",
         "name": "pCSGOInputInstance",
-        "rva": "0x256CFE0"
+        "rva": "0x256D560"
       },
       {
         "hpp_name": "pCSInventoryManager",
         "kind": "signature",
         "name": "pCSInventoryManager",
-        "rva": "0x24CA630"
+        "rva": "0x24CABB0"
       },
       {
         "hpp_name": "pCvar",
         "kind": "signature",
         "name": "pCvar",
-        "rva": "0x278EB78"
+        "rva": "0x278FA98"
       },
       {
         "hpp_name": "pDynamicLightManager",
         "kind": "signature",
         "name": "pDynamicLightManager",
-        "rva": "0x254B968"
+        "rva": "0x254BEE8"
       },
       {
         "hpp_name": "pEconItemSystem",
         "kind": "signature",
         "name": "pEconItemSystem",
-        "rva": "0x25E5EA8"
+        "rva": "0x25E6DD8"
       },
       {
         "hpp_name": "pEntitySystem",
         "kind": "signature",
         "name": "pEntitySystem",
-        "rva": "0x23AD148"
+        "rva": "0x23AD6C8"
       },
       {
         "hpp_name": "pGameEntitySystem",
         "kind": "signature",
         "name": "pGameEntitySystem",
-        "rva": "0x270C680"
+        "rva": "0x270D5B0"
       },
       {
         "hpp_name": "pGameEventManager",
         "kind": "signature",
         "name": "pGameEventManager",
-        "rva": "0x253D740"
+        "rva": "0x253DCC0"
       },
       {
         "hpp_name": "pGameRules",
         "kind": "signature",
         "name": "pGameRules",
-        "rva": "0x2556E78"
+        "rva": "0x25573F8"
       },
       {
         "hpp_name": "pGameTraceManager",
         "kind": "signature",
         "name": "pGameTraceManager",
-        "rva": "0x221AB18"
+        "rva": "0x221AB10"
       },
       {
         "hpp_name": "pGlobalVariables",
@@ -267,13 +267,13 @@
         "hpp_name": "pGlowManager",
         "kind": "signature",
         "name": "pGlowManager",
-        "rva": "0x2553B90"
+        "rva": "0x2554110"
       },
       {
         "hpp_name": "pHudPanel",
         "kind": "signature",
         "name": "pHudPanel",
-        "rva": "0x25C8148"
+        "rva": "0x25C86C8"
       },
       {
         "hpp_name": "pInterpolationPhase",
@@ -285,37 +285,37 @@
         "hpp_name": "pInventoryCategoryTree",
         "kind": "signature",
         "name": "pInventoryCategoryTree",
-        "rva": "0x25E4BE0"
+        "rva": "0x25E5B10"
       },
       {
         "hpp_name": "pLocalPlayerController",
         "kind": "signature",
         "name": "pLocalPlayerController",
-        "rva": "0x252ED78"
+        "rva": "0x252F300"
       },
       {
         "hpp_name": "pMainMenuPanel",
         "kind": "signature",
         "name": "pMainMenuPanel",
-        "rva": "0x25BB3B8"
+        "rva": "0x25BB938"
       },
       {
         "hpp_name": "pMatchFramework",
         "kind": "signature",
         "name": "pMatchFramework",
-        "rva": "0x278EC90"
+        "rva": "0x278FBB0"
       },
       {
         "hpp_name": "pMatchmakingReservation",
         "kind": "signature",
         "name": "pMatchmakingReservation",
-        "rva": "0x256E1C8"
+        "rva": "0x256E748"
       },
       {
         "hpp_name": "pMaterialManager",
         "kind": "signature",
         "name": "pMaterialManager",
-        "rva": "0x278EDD0"
+        "rva": "0x278FCF0"
       },
       {
         "hpp_name": "pParticleManager",
@@ -327,19 +327,19 @@
         "hpp_name": "pPlantedC4s",
         "kind": "signature",
         "name": "pPlantedC4s",
-        "rva": "0x24BD9E8"
+        "rva": "0x24BDF68"
       },
       {
         "hpp_name": "pPrediction",
         "kind": "signature",
         "name": "pPrediction",
-        "rva": "0x2557440"
+        "rva": "0x25579C0"
       },
       {
         "hpp_name": "pPredictionPlayer",
         "kind": "signature",
         "name": "pPredictionPlayer",
-        "rva": "0x2549B78"
+        "rva": "0x254A0F8"
       },
       {
         "hpp_name": "pPredictionRandomSeed",
@@ -351,43 +351,43 @@
         "hpp_name": "pRenderGameSystem",
         "kind": "signature",
         "name": "pRenderGameSystem",
-        "rva": "0x23AE9E0"
+        "rva": "0x23AEF60"
       },
       {
         "hpp_name": "pSensitivity",
         "kind": "signature",
         "name": "pSensitivity",
-        "rva": "0x25546C8"
+        "rva": "0x2554C48"
       },
       {
         "hpp_name": "pUiEngine",
         "kind": "signature",
         "name": "pUiEngine",
-        "rva": "0x2725D40"
+        "rva": "0x2726C60"
       },
       {
         "hpp_name": "pUIInventory",
         "kind": "signature",
         "name": "pUIInventory",
-        "rva": "0x251D120"
+        "rva": "0x251D6A0"
       },
       {
         "hpp_name": "pViewRender",
         "kind": "signature",
         "name": "pViewRender",
-        "rva": "0x255D818"
+        "rva": "0x255DD98"
       },
       {
         "hpp_name": "pViewToProjectionMatrix",
         "kind": "signature",
         "name": "pViewToProjectionMatrix",
-        "rva": "0x255CE10"
+        "rva": "0x255D390"
       },
       {
         "hpp_name": "pWeaponC4",
         "kind": "signature",
         "name": "pWeaponC4",
-        "rva": "0x24BB680"
+        "rva": "0x24BBC00"
       },
       {
         "hpp_name": "pWeaponRecoilTable",
@@ -399,13 +399,13 @@
         "hpp_name": "pWorldToProjectionMatrix",
         "kind": "signature",
         "name": "pWorldToProjectionMatrix",
-        "rva": "0x255CE50"
+        "rva": "0x255D3D0"
       },
       {
         "hpp_name": "SetItemItemIdFunction",
         "kind": "signature",
         "name": "SetItemItemIdFunction",
-        "rva": "0xE579D0"
+        "rva": "0xE57A30"
       },
       {
         "hpp_name": "SetSceneObjectAttributeFloat4",
@@ -418,21 +418,21 @@
         "hpp_name": "Source2Client002",
         "kind": "interface",
         "name": "Source2Client002",
-        "rva": "0x2551080"
+        "rva": "0x2551600"
       },
       {
         "deref": false,
         "hpp_name": "Source2ClientConfig001",
         "kind": "interface",
         "name": "Source2ClientConfig001",
-        "rva": "0x24ADB00"
+        "rva": "0x24AE080"
       },
       {
         "deref": false,
         "hpp_name": "Source2ClientPrediction001",
         "kind": "interface",
         "name": "Source2ClientPrediction001",
-        "rva": "0x2557440"
+        "rva": "0x25579C0"
       },
       {
         "deref": false,
@@ -445,13 +445,13 @@
         "hpp_name": "TransformScale3dVMT",
         "kind": "signature",
         "name": "TransformScale3dVMT",
-        "rva": "0x1CB7B08"
+        "rva": "0x1CB7AE8"
       },
       {
         "hpp_name": "TransformTranslate3dVMT",
         "kind": "signature",
         "name": "TransformTranslate3dVMT",
-        "rva": "0x1CB7AC8"
+        "rva": "0x1CB7AA8"
       }
     ],
     "engine2.dll": [

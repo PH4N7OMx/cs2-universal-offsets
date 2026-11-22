@@ -1,17 +1,12 @@
 {
   "auto_healed": [],
-  "build_number": 14198,
+  "build_number": 14200,
   "checks": [
     {
-      "detail": "577 of 578 entries resolve; 1 need re-anchoring",
-      "items": [
-        {
-          "module": "server.dll",
-          "name": "GameSystem_Think_CheckSteamBan"
-        }
-      ],
+      "detail": "578 of 578 entries resolve",
+      "items": [],
       "name": "signatures_resolve",
-      "status": "warn"
+      "status": "pass"
     },
     {
       "detail": "every pattern matches exactly once in its module",
@@ -30,51 +25,51 @@
       "items": [
         {
           "global": "dwGameRules",
-          "global_rva": "0x2556E78",
+          "global_rva": "0x25573F8",
           "module": "client.dll",
           "ok": true,
           "signature": "pGameRules",
-          "signature_rva": "0x2556E78"
+          "signature_rva": "0x25573F8"
         },
         {
           "global": "dwSensitivity",
-          "global_rva": "0x25546C8",
+          "global_rva": "0x2554C48",
           "module": "client.dll",
           "ok": true,
           "signature": "pSensitivity",
-          "signature_rva": "0x25546C8"
+          "signature_rva": "0x2554C48"
         },
         {
           "global": "dwPrediction",
-          "global_rva": "0x2557440",
+          "global_rva": "0x25579C0",
           "module": "client.dll",
           "ok": true,
           "signature": "pPrediction",
-          "signature_rva": "0x2557440"
+          "signature_rva": "0x25579C0"
         },
         {
           "global": "dwGlowManager",
-          "global_rva": "0x2553B90",
+          "global_rva": "0x2554110",
           "module": "client.dll",
           "ok": true,
           "signature": "pGlowManager",
-          "signature_rva": "0x2553B90"
+          "signature_rva": "0x2554110"
         },
         {
           "global": "dwLocalPlayerController",
-          "global_rva": "0x252ED78",
+          "global_rva": "0x252F300",
           "module": "client.dll",
           "ok": true,
           "signature": "pLocalPlayerController",
-          "signature_rva": "0x252ED78"
+          "signature_rva": "0x252F300"
         },
         {
           "global": "dwCSGOInput",
-          "global_rva": "0x256CFE0",
+          "global_rva": "0x256D560",
           "module": "client.dll",
           "ok": true,
           "signature": "pCSGOInputInstance",
-          "signature_rva": "0x256CFE0"
+          "signature_rva": "0x256D560"
         },
         {
           "global": "dwBuildNumber",
@@ -127,7 +122,7 @@
       "status": "pass"
     },
     {
-      "detail": "464 function targets start after padding",
+      "detail": "465 function targets start after padding",
       "items": [],
       "name": "function_prologues",
       "status": "pass"
@@ -194,32 +189,27 @@
       "status": "pass"
     },
     {
-      "detail": "no weapon entities in the session",
+      "detail": "44 weapons read from the session",
       "items": [],
       "name": "weapons_snapshot",
-      "status": "warn"
+      "status": "pass"
     }
   ],
-  "client_version": "2000946",
-  "dumper_version": "2.1.8",
-  "generated_at": "2026-11-18T15:41:37.987684600+01:00",
+  "client_version": "2000948",
+  "dumper_version": "2.1.9",
+  "generated_at": "2026-11-22T11:20:25.239768700+01:00",
   "note": "Written by cs2-sdk after every dump. `ok` is false when a check failed; warnings list what to look at. The auto-dump pipeline adds `update`, `auto_healed` and `known_issues`.",
   "ok": true,
-  "patch_version": "1.41.9.8",
+  "patch_version": "1.42.0.0",
   "signatures": {
-    "found": 577,
-    "missing": [
-      {
-        "module": "server.dll",
-        "name": "GameSystem_Think_CheckSteamBan"
-      }
-    ],
+    "found": 578,
+    "missing": [],
     "total": 578,
-    "unique_functions": 527
+    "unique_functions": 528
   },
   "summary": {
     "fail": 0,
-    "pass": 9,
-    "warn": 3
+    "pass": 11,
+    "warn": 1
   }
 }

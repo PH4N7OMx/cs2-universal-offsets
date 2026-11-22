@@ -1,4 +1,4 @@
-// cmsgqangle.h  -  CS2 build 14198  -  cs2-sdk.com
+// cmsgqangle.h  -  CS2 build 14200  -  cs2-sdk.com
 // networkbasetypes.proto CMsgQAngle.
 // Module: client.dll. Offsets drift between builds - regenerate after a CS2 update.
 #pragma once

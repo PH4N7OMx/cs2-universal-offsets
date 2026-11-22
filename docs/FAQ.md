@@ -1,7 +1,7 @@
 # FAQ
 
 **Which build is this for?**
-The repository dump uses the in-game build number recorded in `include/manifest.json`. The current snapshot is build 14198, with client version 2000946 recorded separately in `include/status.json`. The hosted API reports its deployed build via `GET /api/summary`.
+The repository dump uses the in-game build number recorded in `include/manifest.json`. The current snapshot is build 14200, with client version 2000948 recorded separately in `include/status.json`. The hosted API reports its deployed build via `GET /api/summary`.
 
 **The game updated. When is the dump refreshed?**
 Usually the same day. Signatures are re-verified after every update, and anything that broke is fixed rather than dropped. Watch the #announcements channel of the Discord, the [releases](https://github.com/scros22/cs2-universal-offsets/releases) page, or poll `GET /api/summary` and compare `build_number`.

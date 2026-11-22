@@ -10,9 +10,9 @@ The `include/` tree committed to this repository is always the latest dump. The 
 
 | | |
 |---|---|
-| CS2 build | **14198** (client version 2000946), dumped 2026-11-18 |
-| Dumper | **v2.1.8** — [releases](https://github.com/scros22/cs2-universal-offsets/releases) |
-| Signatures | 578 entries, 577 resolve, 527 unique functions, 0 ambiguous matches; checked by the dumper on this run |
+| CS2 build | **14200** (client version 2000948), dumped 2026-11-22 |
+| Dumper | **v2.1.10** — [releases](https://github.com/scros22/cs2-universal-offsets/releases) |
+| Signatures | 578 entries, 578 resolve, 528 unique functions, 0 ambiguous matches; checked by the dumper on this run |
 | Globals | 205 — the 32 a2x-compatible `dwXxx` (values identical to a2x), 62 resolved by signature, 111 interface instances |
 | Schema | 3,300 classes and 569 enums across 18 modules |
 | Interfaces | 110 registered interfaces, primary vtable walked, every one RTTI-named |

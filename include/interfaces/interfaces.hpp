@@ -17,7 +17,7 @@
 #pragma once
 #include <cstdint>
 
-namespace ifc { inline constexpr std::uint32_t CS2_BUILD = 14198; }
+namespace ifc { inline constexpr std::uint32_t CS2_BUILD = 14200; }
 
 namespace ifc {
 

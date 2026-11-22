@@ -1,4 +1,4 @@
-// ccsgoinputhistoryentrypb.h  -  CS2 build 14198  -  cs2-sdk.com
+// ccsgoinputhistoryentrypb.h  -  CS2 build 14200  -  cs2-sdk.com
 // cs_usercmd.proto CSGOInputHistoryEntryPB - per-frame view/interp record the server uses for lag compensation and shot validation.
 // Module: client.dll. Offsets drift between builds - regenerate after a CS2 update.
 #pragma once
