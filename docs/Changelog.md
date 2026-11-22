@@ -2,6 +2,12 @@
 
 Each release carries a `cs2-sdk.exe` build and the dump for the CS2 build named in its title. Full notes are on the [releases page](https://github.com/scros22/cs2-universal-offsets/releases).
 
+## v2.1.10 — 2026-11-22 — CS2 build 14200
+
+- Updated the dumper signatures (`GetViewModelOffsets`/`CalcViewmodel` in `client.dll` and `GameSystem_Think_CheckSteamBan` in `server.dll`) and regenerated the SDK for CS2 build 14200 (game version 1.42.0.0, client version 2000948).
+- All 578 of 578 signatures resolve (528 unique functions) with zero missing entries and zero ambiguous matches.
+- The weapon catalogue remains the 44-weapon snapshot from build 14184. Six manually verified offsets still carry an earlier verification build.
+
 ## v2.1.9 — 2026-11-18 — CS2 build 14198
 
 - Updated the dumper signatures and regenerated the SDK for CS2 build 14198 (game version 1.41.9.8). The dump resolves 577 of 578 signatures with no ambiguous matches.
