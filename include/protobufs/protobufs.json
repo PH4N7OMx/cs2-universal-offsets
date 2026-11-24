@@ -8704,8 +8704,8 @@
       "fields": {
         "path": { "offset": 16, "number": 1, "has_bit": -1, "type": 5, "label": 3 },
         "source_file": { "offset": 0, "number": 2, "has_bit": -1, "type": 9, "label": 1 },
-        "begin": { "offset": 3177265952, "number": 3, "has_bit": -1, "type": 5, "label": 1 },
-        "end": { "offset": 32766, "number": 4, "has_bit": -1, "type": 5, "label": 1 }
+        "begin": { "offset": 4240740640, "number": 3, "has_bit": -1, "type": 5, "label": 1 },
+        "end": { "offset": 32764, "number": 4, "has_bit": -1, "type": 5, "label": 1 }
       }
     }
   },
@@ -8997,8 +8997,8 @@
       "fields": {
         "path": { "offset": 16, "number": 1, "has_bit": -1, "type": 5, "label": 3 },
         "source_file": { "offset": 0, "number": 2, "has_bit": -1, "type": 9, "label": 1 },
-        "begin": { "offset": 3609833728, "number": 3, "has_bit": -1, "type": 5, "label": 1 },
-        "end": { "offset": 32766, "number": 4, "has_bit": -1, "type": 5, "label": 1 }
+        "begin": { "offset": 1698148656, "number": 3, "has_bit": -1, "type": 5, "label": 1 },
+        "end": { "offset": 32765, "number": 4, "has_bit": -1, "type": 5, "label": 1 }
       }
     },
     "C2S_CONNECT_SameProcessCheck": {
@@ -10959,8 +10959,8 @@
       "fields": {
         "path": { "offset": 16, "number": 1, "has_bit": -1, "type": 5, "label": 3 },
         "source_file": { "offset": 0, "number": 2, "has_bit": -1, "type": 9, "label": 1 },
-        "begin": { "offset": 3440874128, "number": 3, "has_bit": -1, "type": 5, "label": 1 },
-        "end": { "offset": 32766, "number": 4, "has_bit": -1, "type": 5, "label": 1 }
+        "begin": { "offset": 827954064, "number": 3, "has_bit": -1, "type": 5, "label": 1 },
+        "end": { "offset": 32765, "number": 4, "has_bit": -1, "type": 5, "label": 1 }
       }
     },
     "NetMessageSplitscreenUserChanged": {
@@ -20316,8 +20316,8 @@
       "fields": {
         "path": { "offset": 16, "number": 1, "has_bit": -1, "type": 5, "label": 3 },
         "source_file": { "offset": 0, "number": 2, "has_bit": -1, "type": 9, "label": 1 },
-        "begin": { "offset": 3219676112, "number": 3, "has_bit": -1, "type": 5, "label": 1 },
-        "end": { "offset": 32766, "number": 4, "has_bit": -1, "type": 5, "label": 1 }
+        "begin": { "offset": 4283213136, "number": 3, "has_bit": -1, "type": 5, "label": 1 },
+        "end": { "offset": 32764, "number": 4, "has_bit": -1, "type": 5, "label": 1 }
       }
     }
   }

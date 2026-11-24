@@ -4,7 +4,7 @@ Besides the SDK proper, a run records several tables that are read from the live
 
 ## ConVars and ConCommands — `convars/convars.json`, `convars.hpp`
 
-Every entry of the tier0 `CCvar` registry: 4,140 convars and 1,191 commands on build 14200.
+Every entry of the tier0 `CCvar` registry: 4,140 convars and 1,191 commands on build 14201.
 
 ```json
 {
@@ -57,7 +57,7 @@ Field types are the ones the event definition declares: `bool`, `byte`, `int16`,
 
 ## Entities — `entities/entities.json`
 
-A snapshot of the entity list at dump time: `index`, `classname`, `health`, `max_health`, `team` and `origin` for every entity (9 in the build 14200 snapshot), plus per-classname counts (`by_class`). It exists to show what a live entity list looks like on the current build and to give the walkers something to verify against; it is not a reference table.
+A snapshot of the entity list at dump time: `index`, `classname`, `health`, `max_health`, `team` and `origin` for every entity (9 in the build 14201 snapshot), plus per-classname counts (`by_class`). It exists to show what a live entity list looks like on the current build and to give the walkers something to verify against; it is not a reference table.
 
 ## Buttons — `buttons.json`, `buttons.hpp`
 
@@ -79,7 +79,7 @@ How the features on the site's **Features** tab are built, each in two flavours:
 | Skin changer | Skins | no |
 | Knife changer | Skins | no |
 
-Build 14200 resolves every recipe field, global and hook. Six manually verified offsets still carry an earlier verification build. Nothing numeric is typed into the recipes: each offset is resolved from this dump's schema (`"source": "schema"`), from the hand-verified [engine structs](Engine-Structs) (`"engine"`), or as a schema field plus a fixed delta (`"schema+manual"`, e.g. the bone array at `m_modelState + 0x80`). The handful of values that exist nowhere else are `"manual"` and carry `verified_build`; `stale: true` means they were verified on an older build. Globals come from `offsets.json`, and every function carries this build's RVA and pattern.
+Build 14201 resolves every recipe field, global and hook. Six manually verified offsets still carry an earlier verification build. Nothing numeric is typed into the recipes: each offset is resolved from this dump's schema (`"source": "schema"`), from the hand-verified [engine structs](Engine-Structs) (`"engine"`), or as a schema field plus a fixed delta (`"schema+manual"`, e.g. the bone array at `m_modelState + 0x80`). The handful of values that exist nowhere else are `"manual"` and carry `verified_build`; `stale: true` means they were verified on an older build. Globals come from `offsets.json`, and every function carries this build's RVA and pattern.
 
 ```json
 {

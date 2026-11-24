@@ -1,5 +1,5 @@
 // convars.hpp — CS2 ConVar / ConCommand catalogue (auto-generated)
-// build: 14200
+// build: 14201
 // 4140 convars, 1191 commands. Read-only snapshot of the tier0 CCvar registry.
 #pragma once
 
@@ -396,7 +396,7 @@
 // cl_drawhud_specvote                                       bool     true                  FCVAR_CLIENTDLL|FCVAR_RELEASE  // 1: default; 0: disables vote UI for spectators
 // cl_embedded_stream_audio_volume                           float32  0                     FCVAR_CLIENTDLL|FCVAR_ARCHIVE  // Embedded stream audio volume
 // cl_embedded_stream_audio_volume_xmaster                   bool     true                  FCVAR_CLIENTDLL|FCVAR_ARCHIVE  // Whether embedded stream audio volume gets multiplied by master volume
-// cl_embedded_stream_video_playing                          float32  0                     FCVAR_DEVELOPMENTONLY|FCVAR_CLIENTDLL  // Embedded stream video playing state
+// cl_embedded_stream_video_playing                          float32  0.00990099            FCVAR_DEVELOPMENTONLY|FCVAR_CLIENTDLL  // Embedded stream video playing state
 // cl_enable_party_voice                                     bool     true                  FCVAR_CLIENTDLL|FCVAR_ARCHIVE|FCVAR_RELEASE
 // cl_ent_attachment_filter_substrings                       string                         FCVAR_CLIENTDLL|FCVAR_CHEAT  // If an attachment's name has any of the given substrings in it, it will be displayed. Substrings can be delimited by the ',' or '|' character.
 // cl_ent_joint_axis_size                                    float32  4                     FCVAR_DEVELOPMENTONLY|FCVAR_CLIENTDLL

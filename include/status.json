@@ -1,6 +1,6 @@
 {
   "auto_healed": [],
-  "build_number": 14200,
+  "build_number": 14201,
   "checks": [
     {
       "detail": "578 of 578 entries resolve",
@@ -25,51 +25,51 @@
       "items": [
         {
           "global": "dwGameRules",
-          "global_rva": "0x25573F8",
+          "global_rva": "0x255E3F8",
           "module": "client.dll",
           "ok": true,
           "signature": "pGameRules",
-          "signature_rva": "0x25573F8"
+          "signature_rva": "0x255E3F8"
         },
         {
           "global": "dwSensitivity",
-          "global_rva": "0x2554C48",
+          "global_rva": "0x255BC48",
           "module": "client.dll",
           "ok": true,
           "signature": "pSensitivity",
-          "signature_rva": "0x2554C48"
+          "signature_rva": "0x255BC48"
         },
         {
           "global": "dwPrediction",
-          "global_rva": "0x25579C0",
+          "global_rva": "0x255E9C0",
           "module": "client.dll",
           "ok": true,
           "signature": "pPrediction",
-          "signature_rva": "0x25579C0"
+          "signature_rva": "0x255E9C0"
         },
         {
           "global": "dwGlowManager",
-          "global_rva": "0x2554110",
+          "global_rva": "0x255B110",
           "module": "client.dll",
           "ok": true,
           "signature": "pGlowManager",
-          "signature_rva": "0x2554110"
+          "signature_rva": "0x255B110"
         },
         {
           "global": "dwLocalPlayerController",
-          "global_rva": "0x252F300",
+          "global_rva": "0x2536300",
           "module": "client.dll",
           "ok": true,
           "signature": "pLocalPlayerController",
-          "signature_rva": "0x252F300"
+          "signature_rva": "0x2536300"
         },
         {
           "global": "dwCSGOInput",
-          "global_rva": "0x256D560",
+          "global_rva": "0x2574560",
           "module": "client.dll",
           "ok": true,
           "signature": "pCSGOInputInstance",
-          "signature_rva": "0x256D560"
+          "signature_rva": "0x2574560"
         },
         {
           "global": "dwBuildNumber",
@@ -81,27 +81,27 @@
         },
         {
           "global": "dwNetworkGameClient",
-          "global_rva": "0x9AFB90",
+          "global_rva": "0x9AFB70",
           "module": "engine2.dll",
           "ok": true,
           "signature": "pNetworkGameClient",
-          "signature_rva": "0x9AFB90"
+          "signature_rva": "0x9AFB70"
         },
         {
           "global": "dwWindowWidth",
-          "global_rva": "0x9B42E8",
+          "global_rva": "0x9B42D0",
           "module": "engine2.dll",
           "ok": true,
           "signature": "pWindowWidth",
-          "signature_rva": "0x9B42E8"
+          "signature_rva": "0x9B42D0"
         },
         {
           "global": "dwWindowHeight",
-          "global_rva": "0x9B42EC",
+          "global_rva": "0x9B42D4",
           "module": "engine2.dll",
           "ok": true,
           "signature": "pWindowHeight",
-          "signature_rva": "0x9B42EC"
+          "signature_rva": "0x9B42D4"
         },
         {
           "global": "dwSoundSystem",
@@ -195,12 +195,12 @@
       "status": "pass"
     }
   ],
-  "client_version": "2000948",
-  "dumper_version": "2.1.9",
-  "generated_at": "2026-11-22T11:20:25.239768700+01:00",
+  "client_version": "2000950",
+  "dumper_version": "2.1.11",
+  "generated_at": "2026-11-24T13:02:41.567083600+01:00",
   "note": "Written by cs2-sdk after every dump. `ok` is false when a check failed; warnings list what to look at. The auto-dump pipeline adds `update`, `auto_healed` and `known_issues`.",
   "ok": true,
-  "patch_version": "1.42.0.0",
+  "patch_version": "1.42.0.1",
   "signatures": {
     "found": 578,
     "missing": [],
